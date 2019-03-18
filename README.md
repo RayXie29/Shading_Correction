@@ -1,4 +1,4 @@
-#Lens shading/vignetting correction algorithm
+#Lens shading/vignetting correction algorithm<br />
 This repo is the implementation of Patent US20070211154 which is the lens vignetting correction algorithm. <br />
 Vigetting is a pheonmenon that the brightness is decreasing from image center to corner. This pheonmenon might due to design of camera lens or camera setting. <br />
 This patent is using a radially symmetric polynomial function to correct the issue. This might because the vignetting effect is happened radially symmertic from center to corner. <br />
@@ -19,8 +19,8 @@ And here is the image after shading correction and color interpolation/correctio
 
 
 <br />
-I also used the corrected image to subtract the original image to see the correction effect. From this difference we can see the image region close to center has very few change. But the corner part, which is the serious vignetting region has very effective change.
+I also used the corrected image to subtract the original image to see the correction effect. From this difference we can see the image region close to center has very few change. But the corner part, which is the serious vignetting region has very effective change.<br />
 ![alt text](https://raw.githubusercontent.com/RayXie29/Shading_Correction/master/imgs/diff.bmp)
-
+<br />
 reference:
 https://patents.google.com/patent/US20070211154
