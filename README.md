@@ -17,10 +17,10 @@ Here is the original image after color interpolation and correction<br />
 And here is the image after shading correction and color interpolation/correction<br />
 ![alt text](https://raw.githubusercontent.com/RayXie29/Shading_Correction/master/imgs/corrected.bmp)
 
-
 <br />
 I also used the corrected image to subtract the original image to see the correction effect. From this difference we can see the image region close to center has very few change. But the corner part, which is the serious vignetting region has very effective change.<br />
+
 ![alt text](https://raw.githubusercontent.com/RayXie29/Shading_Correction/master/imgs/diff.bmp)
 <br />
-reference:
+reference:<br />
 https://patents.google.com/patent/US20070211154
