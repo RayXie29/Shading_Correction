@@ -8,12 +8,15 @@ First we need to use a raw image to calculate the paramteres of correction funct
 
 Here is my raw image, resolution : 640x480 , bayer pattern : BGGR <br />
 ![alt text](https://raw.githubusercontent.com/RayXie29/Shading_Correction/master/imgs/unShading.bmp)
+<br />
 We use this raw image to calculate the function parameters -> "ShadingParameters.csv" <br />
 Then we use the correction function to correct the image, here is the result <br />
 ![alt text](https://raw.githubusercontent.com/RayXie29/Shading_Correction/master/imgs/result.bmp)
+<br />
 Then we do some color interpolation and correction on them to make the images normal.<br />
 Here is the original image after color interpolation and correction<br />
 ![alt text](https://raw.githubusercontent.com/RayXie29/Shading_Correction/master/imgs/original.bmp)
+<br />
 And here is the image after shading correction and color interpolation/correction<br />
 ![alt text](https://raw.githubusercontent.com/RayXie29/Shading_Correction/master/imgs/corrected.bmp)
 
